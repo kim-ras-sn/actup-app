@@ -33,7 +33,7 @@
         public string generate() {
             if (iCode != 200) {
                 throw new HttpException(iCode, sText);
-            } 
+            }
             return "";
         }
 

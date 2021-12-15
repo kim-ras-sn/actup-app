@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/d3e1f772-50ed-496a-8b16-6072b27f7571/resourceGroups/monitoring-servicenow-poc/providers/Microsoft.Web/sites/yara-app",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/e323dab8-a11a-4521-a0f8-5909d1ac26f4/resourceGroups/act-up-app/providers/Microsoft.Web/sites/act-up"
 }
