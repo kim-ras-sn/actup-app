@@ -1,4 +1,0 @@
-{
-    "appService.deploySubpath": ".",
-    "appService.defaultWebAppToDeploy": "/subscriptions/e323dab8-a11a-4521-a0f8-5909d1ac26f4/resourceGroups/act-up-app/providers/Microsoft.Web/sites/act-up"
-}
