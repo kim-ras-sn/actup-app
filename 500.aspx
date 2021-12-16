@@ -6,6 +6,6 @@
             <link rel="stylesheet" href="styles.css">
         </head>
         <body>
-            <div id="error">500 Error was generated!! (ASPX)</div>
+            <div id="error">500 Error was generated!!</div>
         </body>
     </html>

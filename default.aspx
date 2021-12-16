@@ -1,5 +1,5 @@
 <%@ Import Namespace="System" %>
-    <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" %>
+    <%@ Page Language="C#" Debug="true" AutoEventWireup="true" CodeBehind="Default.aspx.cs" %>
         <!-- Helper inline code -->
         <script runat="server">
 
@@ -10,6 +10,10 @@
 
             public int build() {
 
+                if (iRnd == 0) {
+                    iCode = 400;
+                    sText = "Uups - unlucky";
+                }
                 if (iRnd == 1) {
                     iCode = 401;
                     sText = "Uups - unlucky";
@@ -27,13 +31,14 @@
                     iCode = 500;
                     sText = "Uups - unlucky";
                 }
+                Response.StatusCode = iCode; 
                 return iCode;
             }
 
         public string generate() {
-            if (iCode != 200) {
-                throw new HttpException(iCode, sText);
-            }
+            //if (iCode != 200) {
+            //    throw new HttpException(iCode, sText);
+            // }
             return "";
         }
 
